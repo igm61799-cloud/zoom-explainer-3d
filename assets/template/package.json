@@ -1,0 +1,13 @@
+{
+  "name": "zoom-explainer-3d-project",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "stills": "node render.mjs --stills 1,10,20,30,40",
+    "render": "node render.mjs --full"
+  },
+  "dependencies": {
+    "puppeteer-core": "^25.17.0",
+    "three": "^0.187.0"
+  }
+}
